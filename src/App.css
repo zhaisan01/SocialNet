@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas:
+    "header header"
+    "navbar content";
+  width: 1200px;
+  margin: auto;
+}
+.content {
+  grid-area: content;
+  background-color: chartreuse;
+}

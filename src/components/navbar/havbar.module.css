@@ -1,0 +1,13 @@
+.nav {
+  grid-area: navbar;
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+.item a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.item a.active {
+  color: rgb(255, 217, 0);
+}

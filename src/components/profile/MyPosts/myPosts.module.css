@@ -1,0 +1,17 @@
+.btnAdd {
+  color: aliceblue;
+  background-color: rgb(12, 164, 235);
+}
+.btnDelete {
+  color: aliceblue;
+  background-color: rgb(212, 45, 45);
+}
+.btnBlock {
+  margin: 10px;
+}
+.textBlock {
+  margin: 10px;
+}
+.postsList {
+  margin: 10px;
+}

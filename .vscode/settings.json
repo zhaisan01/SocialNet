@@ -1,0 +1,4 @@
+{
+  "autoimport.filesToScan": "**/*.{js, jsx, ts,tsx}",
+  "emmet.showExpandedAbbreviation": "inMarkupAndStylesheetFilesOnly"
+}
