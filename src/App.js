@@ -20,10 +20,18 @@ function App(props) {
         <Navbar />
         <div className='content'>
           <Routes>
-            <Route path='/profile' element={<Profile post={props.post} />} />
+            <Route
+              path='/profile'
+              element={<Profile post={props.state.profilePage.post} />}
+            />
             <Route
               path='/dialogs'
-              element={<Dialog massege={props.massege} user={props.user} />}
+              element={
+                <Dialog
+                  massege={props.state.massegePage.massege}
+                  user={props.state.massegePage.user}
+                />
+              }
             />
             <Route path='/music' element={<Music />} />
             <Route path='/news' element={<News />} />

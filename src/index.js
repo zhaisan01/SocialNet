@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import state from "./state";
+import state from "./redux/state";
 
 // let usersData = [
 //   {
@@ -55,11 +55,7 @@ import state from "./state";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App
-      massege={state.massegesData}
-      user={state.userData}
-      post={state.postsData}
-    />
+    <App state={state} />
   </React.StrictMode>,
   document.getElementById("root")
 );
