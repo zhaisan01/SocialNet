@@ -10,7 +10,11 @@ const Dialog = (props) => {
   ));
 
   let massegeElement = props.massege.map((massege) => (
-    <Massege massege={massege.massege} avatar={massege.avatarUrl} />
+    <Massege
+      massege={massege.massege}
+      avatar={massege.avatarUrl}
+      className={classes.blockMassege}
+    />
   ));
 
   return (

@@ -13,5 +13,5 @@
 }
 .content {
   grid-area: content;
-  background-color: chartreuse;
+  background-color: rgb(199, 206, 193);
 }

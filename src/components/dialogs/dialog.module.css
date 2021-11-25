@@ -2,10 +2,17 @@
   color: aliceblue;
   display: grid;
   grid-template-columns: 2fr 10fr;
+  z-index: 2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .dialog_items {
   padding: 10px;
+  box-shadow: -1px 0px 20px 4px #2f2b2b;
+  z-index: 2;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .dialog_items a {
   display: inline;
@@ -23,7 +30,10 @@
 }
 .messages {
   padding: 10px;
+  background-color: rgb(175, 172, 172);
+  border-left: 1px solid rgb(248, 242, 242);
 }
+
 .messages .active {
   color: gold;
 }
