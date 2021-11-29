@@ -1,3 +1,5 @@
+import { rerenderTree } from "../render";
+
 let state = {
   profilePage: {
     post: [
@@ -70,6 +72,7 @@ let state = {
 };
 
 export let addPost = (postMassege) => {
+  // debugger;
   let newPost = {
     id: 5,
     text: postMassege,
@@ -77,5 +80,7 @@ export let addPost = (postMassege) => {
   };
 
   state.profilePage.post.push(newPost);
+  rerenderTree(state);
+  console.log(`newPost`, newPost);
 };
 export default state;

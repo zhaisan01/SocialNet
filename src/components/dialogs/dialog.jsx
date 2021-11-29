@@ -5,11 +5,11 @@ import DialogItem from "./dialogItem/dialogItem";
 import Massege from "./massege/Massege";
 
 const Dialog = (props) => {
-  let userElement = props.user.map((user) => (
+  let userElement = props.user.map((user, key) => (
     <DialogItem id={user.id} name={user.name} avatar={user.avatarUrl} />
   ));
 
-  let massegeElement = props.massege.map((massege) => (
+  let massegeElement = props.massege.map((massege, key) => (
     <Massege
       massege={massege.massege}
       avatar={massege.avatarUrl}
