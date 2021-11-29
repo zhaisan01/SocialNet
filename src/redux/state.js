@@ -16,6 +16,11 @@ let state = {
         text: "have a good day",
         llikes: 12,
       },
+      {
+        id: 4,
+        text: "textPost",
+        llikes: 34,
+      },
     ],
   },
   massegePage: {
@@ -64,4 +69,13 @@ let state = {
   },
 };
 
-module.exports = state;
+export let addPost = (postMassege) => {
+  let newPost = {
+    id: 5,
+    text: postMassege,
+    llikes: 33,
+  };
+
+  state.profilePage.post.push(newPost);
+};
+export default state;

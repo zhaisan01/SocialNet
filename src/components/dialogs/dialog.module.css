@@ -17,7 +17,7 @@
 .dialog_items a {
   display: inline;
   text-decoration: none;
-  color: white;
+  color: #505050;
   margin: 5px;
 }
 .items img {
@@ -55,7 +55,7 @@
   height: auto;
   background-color: #eeddff;
   border: 1px solid #7922cc;
-  border-radius: 25px;
+  border-radius: 15px;
   margin: 3px;
   padding: 10px;
 }
@@ -66,4 +66,38 @@
 }
 .items {
   display: flex;
+}
+
+/* style for textSend  */
+.textSend {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.textSend textarea {
+  width: 150px;
+  height: auto;
+  margin-left: 40px;
+  margin-top: 120px;
+  background-color: #eeddff;
+  border: 1px solid #7922cc;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.textSend button {
+  border: none;
+  color: white;
+  border-radius: 2px;
+  width: 50px;
+  height: auto;
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5%;
+  margin-left: 165px;
+  margin-top: 5px;
 }

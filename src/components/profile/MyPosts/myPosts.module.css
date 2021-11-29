@@ -1,17 +1,33 @@
 .btnAdd {
   color: aliceblue;
-  background-color: rgb(12, 164, 235);
+  background-color: #007bff;
+  border: none;
+  border-radius: 2px;
+  width: 50px;
+  height: 25px;
+  margin-right: 5px;
 }
 .btnDelete {
   color: aliceblue;
-  background-color: rgb(212, 45, 45);
+  background-color: #dc3545;
+  border: none;
+  border-radius: 2px;
+  width: 50px;
+  height: 25px;
+  margin-right: 5px;
 }
 .btnBlock {
-  margin: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
 }
 .textBlock {
-  margin: 10px;
+  margin-left: 10px;
 }
 .postsList {
   margin: 10px;
+}
+
+.textBlock textarea {
+  border-radius: 5px;
+  background-color: rgba(194, 243, 243, 0.911);
 }
