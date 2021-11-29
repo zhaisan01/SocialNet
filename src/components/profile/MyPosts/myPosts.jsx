@@ -13,6 +13,7 @@ const MyPosts = (props) => {
     let text = newPostEl.current.value;
     props.addPost(text);
     alert("you added new post");
+    newPostEl.current.value = "";
     debugger;
   };
   return (

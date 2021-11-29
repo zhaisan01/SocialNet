@@ -83,4 +83,16 @@ export let addPost = (postMassege) => {
   rerenderTree(state);
   console.log(`newPost`, newPost);
 };
+
+export let addMassege = (addMassege) => {
+  let newMassege = {
+    id: 4,
+    massege: addMassege,
+    avatarUrl:
+      "https://pickaface.net/gallery/avatar/TrueXPixels542b8838a55de.png",
+  };
+
+  state.massegePage.massege.push(newMassege);
+  rerenderTree(state);
+};
 export default state;

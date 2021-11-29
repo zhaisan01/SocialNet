@@ -21,8 +21,8 @@ const Dialog = (props) => {
 
   let massegeShow = () => {
     let text = massegeText.current.value;
-
-    alert(text);
+    props.addMassege(text);
+    massegeText.current.value = "";
   };
 
   return (

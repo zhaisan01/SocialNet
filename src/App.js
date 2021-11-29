@@ -35,6 +35,7 @@ function App(props) {
                 <Dialog
                   massege={props.state.massegePage.massege}
                   user={props.state.massegePage.user}
+                  addMassege={props.addMassege}
                 />
               }
             />
