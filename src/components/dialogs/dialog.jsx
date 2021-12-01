@@ -1,4 +1,3 @@
-// import { findRenderedComponentWithType } from "react-dom/test-utils";
 import React from "react";
 import classes from "./dialog.module.css";
 import DialogItem from "./dialogItem/dialogItem";
