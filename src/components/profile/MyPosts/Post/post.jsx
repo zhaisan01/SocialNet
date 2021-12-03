@@ -4,8 +4,8 @@ const Post = (props) => {
     <div>
       <div className={classes.item}>
         <img src={props.imgUrl} alt='' srcset='' />
-        <h4>{props.message}</h4>
         <div>
+          <h4>{props.message}</h4>
           <span>
             <h5>like {props.likeCount}</h5>
           </span>
